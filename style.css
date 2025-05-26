@@ -169,7 +169,7 @@ p {
     height: 2px;
     width: 30px;
     position: relative;
-    background-color: white;
+    background-color: rgb(18, 197, 87);
     z-index: -1;
 }
 #header .hamburger .bar::after,
@@ -179,7 +179,7 @@ p {
     height: 100%;
     width: 100%;
     left: 0;
-    background-color: white;
+    background-color: rgb(10, 211, 144);
     transition: .3s ease;
     transition-property: top, bottom;
 }
@@ -201,7 +201,7 @@ top: 0;
 /* End Header Section*/
 /* Hero Section */
 #hero{
-    background-image: url(inv1.webp);
+    background-image: url(back2.jpeg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -576,7 +576,7 @@ z-index: -1;
 /*End Keyframes */
 
 /* Media Query For Tablet */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 640px){
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
@@ -588,7 +588,7 @@ h1.section-title{
 }
 /* Hero */
 #hero h1{
-    font-size: 7rem;
+    font-size: 5rem;
 }
 /* End Hero */
 /* Service Section*/
