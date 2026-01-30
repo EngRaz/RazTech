@@ -446,7 +446,7 @@ top: 0;
 }
 #about .col-left .about-img::after{
 content: '';
-position: absolute;
+position: centre;
 left: -33px;
 top: 19px;
 height: 98%;
@@ -715,4 +715,5 @@ h1.section-title{
 }
 
 /* End Media Query For Desktop */
+
 }
