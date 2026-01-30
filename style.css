@@ -446,7 +446,7 @@ top: 0;
 }
 #about .col-left .about-img::after{
 content: '';
-position: centre;
+position: center;
 left: -33px;
 top: 19px;
 height: 98%;
